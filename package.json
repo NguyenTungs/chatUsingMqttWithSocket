@@ -1,0 +1,22 @@
+{
+  "name": "chatmqttsocket",
+  "version": "1.0.0",
+  "description": "An example about chat application using mqtt and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "chat",
+    "mqtt",
+    "socket.io"
+  ],
+  "author": "Nguyen Tung <nguyentung.main@gmail.com> (http://tungns.top/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.2",
+    "mqtt": "2.6.2",
+    "socket.io": "1.7.3"
+  }
+}
